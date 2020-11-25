@@ -1,0 +1,31 @@
+{% extends "base.html.twig" %}
+{# On hérite du template de base 'base.html.twig' #}
+{# On fait appel au block 'body' du fichier 'base.html.twig' #}
+
+{% block body %}
+
+<h1>{{ title }}</h1>
+{# {{ }} -> double accolades, ce que l'on appelle interpolation  #}
+{# {% %} -> commande TWIG #}
+
+{% if age > 18 %}
+
+    <p> Tu es majeur !! </p>
+
+{% else %}
+
+    <p> Tu es mineur !! </p>
+
+{% endif %}
+
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat vitae nam dicta voluptate quod veniam earum tempore aperiam, unde fugiat hic optio delectus adipisci iure ullam, commodi numquam sunt reprehenderit.
+Quam, error quas. Soluta aspernatur modi repellendus error quas quod provident quo quia et id aliquid quidem blanditiis, nostrum iste ab velit sint similique voluptatibus laudantium adipisci totam expedita aliquam.
+Obcaecati corporis reprehenderit dicta hic facere vero quo nihil sapiente, fugit iusto. Ipsum, sed aperiam quos quas sequi consequuntur iste architecto nihil eligendi voluptatibus impedit cupiditate sint eius officiis non!
+Cumque inventore sunt dolore aspernatur, blanditiis incidunt, laborum qui vitae natus aperiam dolorem distinctio maiores, illum deserunt labore voluptas eaque explicabo minima nam praesentium fuga perferendis! Tenetur quasi labore accusantium?
+Unde voluptatum nemo illum vero iusto excepturi molestiae delectus quod non itaque at ipsa error mollitia, maiores a nesciunt est placeat ex quis earum pariatur officia ducimus ipsam voluptatem? Amet.
+
+
+{% endblock %}
+
+
